@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Manrope", sans-serif;
+}
+
+@layer components{
+    .second-color{
+        color: #13131899;
+    };
+    .third-color{
+        color: #FF4240;
+    };
+    .green-color{
+        color: #49D293;
+    };
+    .orange-color{
+        color: #FFB546;
+    }
+    .blue-color{
+        color: #4C8DF1;
+    }
+}
