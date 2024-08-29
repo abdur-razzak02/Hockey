@@ -2,10 +2,12 @@
 module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
-        colors: {
-        'my-bg': '#FF4240',
+        
     },
-      extend: {},
+      extend: {
+        colors: {
+          'my-bg': '#FF4240',
+      },
     },
     plugins: [],
   }
